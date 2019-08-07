@@ -3,4 +3,5 @@
     <string name="rating">Рейтинг</string>
     <string name="lineCount">Написано строк кода</string>
     <string name="projectCount">Проектов</string>
+
 </resources>

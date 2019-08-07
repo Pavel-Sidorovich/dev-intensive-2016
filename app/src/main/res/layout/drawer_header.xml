@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="172dp"
+    android:background="@drawable/side_nav_bar"
+    android:gravity="bottom"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:paddingLeft="@dimen/spacing_normal_16"
+    android:paddingTop="@dimen/spacing_large_24"
+    android:paddingRight="@dimen/spacing_normal_16"
+    android:paddingBottom="@dimen/spacing_small_8">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:contentDescription="Navigation header"
+        app:srcCompat="@mipmap/ic_launcher_round"
+        android:layout_marginTop="@dimen/spacing_normal_16"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/spacing_small_8"
+            android:text="Pavel Sid"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif-medium"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif"
+            android:text="mymail@mail.ru" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>
